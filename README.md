@@ -11,15 +11,23 @@ The dataset with protein sequences along with number of disulfide bonds was coll
 
  fig. 1: Frequency distribution of dataset
 
- To observe any possible relation between sequence length and number of disulfide bonds a graph was plotted between these two and is represented in fig. 2. 
+ To observe any possible relation between sequence length and number of disulfide bonds a graph was plotted between these two and is represented in fig. 2.
 
 ![image](https://github.com/Growdeatechnology/Di_sulphide_bond/assets/72397529/794e4903-90b9-4153-b49c-d3964e3e6111)
 
- fig 2. plotting of sequence length and number of bonds it formed
+ fig. 2: Scatter plot of number of bonds against sequence length
+
+A fixed pattern was not observed in the plot so the datapoints for disulfide were normalised by dividing each value with the length of their corresponding sequences. The normalised values were plotted against sequence length which is represented in fig. 3. 
 
 ![image](https://github.com/Growdeatechnology/Di_sulphide_bond/assets/72397529/51f4fb14-6f3d-41d2-abd1-0fb04919188e)
 
- fig 3. plotting of sequence length and targeted value 
+ fig. 3: Scatter plot of normalized value (target value) against sequence length
+
+ Normalized values seemed to be suitaible for model training and hence was used for further processes.
+
+ ## Encoder and Model
+
+ The protein sequences present in training dataset were encodded before they were feeded to the model. 
 
 ![image](https://github.com/Growdeatechnology/Di_sulphide_bond/assets/72397529/f65c5bc4-c4be-4749-af25-6b8a7d190bbc)
 
