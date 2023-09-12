@@ -1,6 +1,15 @@
+# Disulfide bond prediction
+
+Disulfide bonds, also known as disulfide bridges or disulfide linkages, are covalent bonds formed between the sulfur atoms of two cysteine amino acids within a protein. These bonds play a crucial role in maintaining the stability and structure of proteins. Disulfide bonds contribute to the stabilization of a protein's three-dimensional structure. They form covalent linkages between specific amino acid residues and help lock the protein into its native or biologically active conformation. This stabilization is particularly important for proteins that need to maintain their structure in dynamic and fluctuating cellular environments. Disulfide bonds act as "molecular staples" that hold together different parts of a protein. These bonds resist the forces that would otherwise cause the protein to unfold or denature. 
+This contribution of disulfide bond towards protein stability attracted our attention and we developed a CNN based regression model to predict number of disulfide bonds from protein sequence.
+
+## Dataset
+
+The dataset with protein sequences along with number of disulfide bonds was collected from [SCRATCH Protein Predictor](https://scratch.proteomics.ics.uci.edu/) provided by [Institute for Genomics and Bioinformatics, University of California, Irvine, USA](https://download.igb.uci.edu/). Dataset was curated to get a clean and significant data for model training. Frequency distribution of dataset post curation is represented in fig. 1. 
+
 ![image](https://github.com/Growdeatechnology/Di_sulphide_bond/assets/72397529/2a0b363e-5a2f-4b88-8029-ae8329492944)
 
- fig 1.Data distribution
+ fig. 1: Frequency distribution of dataset
 
 ![image](https://github.com/Growdeatechnology/Di_sulphide_bond/assets/72397529/794e4903-90b9-4153-b49c-d3964e3e6111)
 
