@@ -23,11 +23,11 @@ A fixed pattern was not observed in the plot so the datapoints for disulfide wer
 
  fig. 3: Scatter plot of normalized value (target value) against sequence length
 
- Normalized values seemed to be suitaible for model training and hence was used for further processes.
+Normalized values seemed to be suitaible for model training and hence was used for further processes.
 
  ## Encoder and Model
 
- The protein sequences present in training dataset were encodded before they were feeded to the model. 
+The protein sequences present in training dataset were encodded before they were feeded to the model. Protein sequences were encoded using One Hot Encoding and a CNN based regression model was prepared for prediction of number of disulfide bonds. Model was validated using test data, fig. 4 represent the regression plot between predicted data and sequence length. Another plot, shown in fig. 5 was plotted without outliers. 
 
 ![image](https://github.com/Growdeatechnology/Di_sulphide_bond/assets/72397529/f65c5bc4-c4be-4749-af25-6b8a7d190bbc)
 
@@ -36,3 +36,5 @@ A fixed pattern was not observed in the plot so the datapoints for disulfide wer
 ![image](https://github.com/Growdeatechnology/Di_sulphide_bond/assets/72397529/4ad0c923-87ba-4efc-925f-75bca4f886a3)
 
  fig 5. Plotting of original data vs predicted data without outliers
+
+Both these plots show R<sup>2</sup> grater than 0.9, conclusively, model is able to predict number of disulfide bonds with higher accuracy.
