@@ -11,6 +11,8 @@ The dataset with protein sequences along with number of disulfide bonds was coll
 
  fig. 1: Frequency distribution of dataset
 
+ To observe any possible relation between sequence length and number of disulfide bonds a graph was plotted between these two and is represented in fig. 2. 
+
 ![image](https://github.com/Growdeatechnology/Di_sulphide_bond/assets/72397529/794e4903-90b9-4153-b49c-d3964e3e6111)
 
  fig 2. plotting of sequence length and number of bonds it formed
